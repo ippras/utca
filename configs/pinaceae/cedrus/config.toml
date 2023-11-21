@@ -1,0 +1,47 @@
+# Pinaceae Cedrus
+taxonomy = "Pinaceae Cedrus"
+
+[[fatty_acid]]
+formula = "H34C19O2"
+label = "Pi"
+values = { tag = 42194071.111, dag = 208041598.375, mag = 6057859.048 }
+
+[[fatty_acid]]
+formula = "H34C17O2"
+label = "Pa"
+values = { tag = 145011164.005, dag = 302116780.058, mag = 19739896.657 }
+
+[[fatty_acid]]
+formula = "H32C19O2"
+label = "Pn"
+values = { tag = 599666360.160, dag = 2420977752.198, mag = 37615085.468 }
+
+[[fatty_acid]]
+formula = "H40C21O2"
+label = "Gd"
+values = { tag = 25798972.603, dag = 85358549.162, mag = 3409238.721 }
+
+[[fatty_acid]]
+formula = "H38C19O2"
+label = "St"
+values = { tag = 74037315.870, dag = 195624715.683, mag = 7112473.957 }
+
+[[fatty_acid]]
+formula = "H36C19O2"
+label = "Ol"
+values = { tag = 595392558.250, dag = 2545783364.126, mag = 543320871.488 }
+
+[[fatty_acid]]
+formula = "H42C21O2"
+label = "Ar"
+values = { tag = 7737659.800, dag = 31481582.538, mag = 303620.577 }
+
+[[fatty_acid]]
+formula = "H34C19O2"
+label = "Li"
+values = { tag = 1158289211.401, dag = 4819585526.736, mag = 1226498927.113 }
+
+[[fatty_acid]]
+formula = "H32C19O2"
+label = "Ln"
+values = { tag = 5070004.063, dag = 12823290.138, mag = 1426035.096 }
