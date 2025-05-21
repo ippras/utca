@@ -1,0 +1,75 @@
+= Thermodynamic properties
+:nofooter:
+:stem: latexmath
+:parenthesis: Parameter values in parenthesis indicate those that were guessed due to inadequate data for fitting.
+
+* https://lipidlibrary.shinyapps.io/Triglyceride_Property_Calculator[Calculator]
+* https://www.crcfoodandhealth.com/downloads/asmTPC-webMathe.pdf[Wesdorp method]
+* DOI: 10.1201/b12883-10
+
+== Wesdorp
+
+=== Saturated
+
+[stem]
+++++
+\Delta{H^\alpha_f} = 2.4n - 17.6 kJ/mol, RMSE = 4.6, r^2 = 0.98 \tag{9.57}\label{eq:9.57}
+++++
+
+.Parameters That Result When Equation 9.57 Is Fitted to the Experimental
+[cols="^h,3*^"]
+|===
+|Parameter|stem:[\alpha]|stem:[\beta']|stem:[\beta]
+
+|stem:[h]|2.39±0.1|4.17±0.2|4.03±0.1
+|stem:[h_0]|-16.3±5|-68.4±8|-24.4±4
+|stem:[h_x]|1.98±0.3|17.3±1.6|2.16±0.4
+|stem:[h_{x_2}]|-0.54±0.07|-3.25±0.3|-0.63±0.07
+|stem:[h_{xy}]|—|-1.07±0.3|—
+|stem:[h_y]|—|-9.03±1.2|-7.28±0.5
+|stem:[h_{y_2}]|-0.64±0.08|—|—
+|===
+
+.Parameters That Result When Equations 9.44 and 9.58 Are Fitted to the Experimental Melting Points of Even Saturated TAGs
+[cols="^h,3*^"]
+|===
+|Parameter|stem:[\alpha]|stem:[\beta']|stem:[\beta]
+
+|stem:[A_0]|-9.0581|-8.4543|-8.0481
+|stem:[A_x]|0.00290|-0.10360|0.074130
+|stem:[A_{x^2}]|-0.0619116|-0.018881|-0.0348596
+|stem:[A_{xy}]|0.115128|0.0739411|0.00771420
+|stem:[A_y]|-0.453461|-0.49721|-0.404136
+|stem:[A_{y^2}]|-0.005827|0.0115995|0.0111938
+|stem:[B_0]|-4.4841|-0.26501|2.66923
+|stem:[B_x]|-0.00111|0.54997|-0.31675
+|stem:[B_{x^2}]|0.148938|0.074136|0.085967
+|stem:[B_{xy}]|-0.365917|-0.340928|0.040642
+|stem:[B_y]|1.41154|2.34238|0.55040
+|stem:[B_{y^2}]|-0.001766|-0.135735|-0.000945
+|stem:[T_∞]|401.15|401.15|401.15
+|===
+
+[stem]
+++++
+\Delta{H_f} = hn + h_0 + h_{xy} f_{xy} + h_{odd} \cdot odd \tag{9.64}\label{eq:9.64}
+++++
+
+[stem]
+++++
+\Delta{S_f} = sn + s_0 + s_{xy} f_{xy} + s_{odd} \cdot odd + R \ln{2} \cdot asym \tag{9.65}\label{eq:9.65}
+++++
+
+Here "asym" and "odd" are indicator variables taking the value 1 ("true") when an asymmetric TAG or an odd TAG is involved and the value 0 ("false") otherwise.
+
+=== Unsaturated
+
+.Estimates and Standard Errors of the Parameters of Equation 9.63 Fitted to the Melting Enthalpies of Unsaturated TAGs
+[cols="^h,3*^"]
+|===
+|Parameter|stem:[\alpha]|stem:[\beta']|stem:[\beta]
+
+|hO|-31.7±1.8|-28.3±1.8|-30.2±1.4
+|hE|-11.7±1.3|(-15.9)footnote:parenthesis[{parenthesis}]|-15.9±0.9
+|hI|(-37.7)footnote:parenthesis[]|(-37.7)footnote:parenthesis[]|-37.7±2.5
+|===

@@ -1,0 +1,72 @@
+= Physical properties
+:nofooter:
+:stem: latexmath
+
+* https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1745-4522.2002.tb00217.x[10.1111/j.1745-4522.2002.tb00217.x]
+* https://link.springer.com/article/10.1007/s11746-997-0048-6[10.1007/s11746-997-0048-6]
+* https://aocs.onlinelibrary.wiley.com/doi/abs/10.1007/s11746-001-0378-9[10.1007/s11746-001-0378-9]
+
+https://sci-hub.ru/https://doi.org/10.1002/14356007.a10_245.pub2
+
+== Wesdorp
+
+.Parameter sets for equations for fatty acids and triglycerides
+[cols="^h,2*^"]
+|===
+|Parameter|Fatty acids|Triglycerides
+
+|A1|-6.09|-4.01
+|A2|-3.536|-2.954
+|A3|5.40|28.9
+|A4|3.10|6.5
+|A5|-0.066|-0.0033
+|B1|1331.5|1156.0
+|C1|41.6|99.1
+|C2|4.135|0.851
+|C3|-8.0|-3.65
+|===
+
+
+
+
+
+
+
+
+
+
+
+
+== Wesdorp
+
+[stem]
+++++
+\eta = \eta_0 \exp(E/RT) \tag{9.57}\label{eq:9.57}
+++++
+
+stem:[\eta] - viscosity,
+stem:[\eta_0] - temperature independent constant,
+T - absolute temperature of liquid,
+E - flow activation energy,
+R - gas constant.
+
+Andrade Equation:
+
+[stem]
+++++
+\ln \eta = A + B/T
+++++
+
+It has been reported that viscosity increases as molecular weight increases in a homologous series, whereas it decreases with unsaturation (Eckey 1954).
+
+A generalized equation for calculation of the viscosity of pure fatty compounds based on the number of carbon atoms and double bonds was developed by Rabelo et al. (2000), as given in Eq. (4).
+
+[stem]
+++++
+\ln \eta = A + \frac B{T - C} \tag{4}\label{eq:4}
+++++
+
+[stem]
+++++
+\log \eta = -0.6298 + \frac{273.66}{T + 88.81} \tag{5}\label{eq:5}
+++++

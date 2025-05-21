@@ -1,0 +1,153 @@
+
+Sample_TAG_of_seed_Pinus_oil_Year_2023_Stage_III
+
+Date:_23-05-2023_Mole_Part_TOTAL_REPORT_AGILENT
+
+_N___GLC_Peak_Area__Free_1,2-DAGs
+ 1         208042. 0.00067
+ 2         302117. 0.00097
+ 3        2420978. 0.00775
+ 4          85359. 0.00027
+ 5         195625. 0.00063
+ 6        2545783. 0.00815
+ 7          31482. 0.00010
+ 8        4819586. 0.01542
+ 9          12823. 0.00004
+
+_N___GLC_Peak_Area__Total_TAGs
+ 1          42194. 0.00054
+ 2         145011. 0.00186
+ 3         599666. 0.00770
+ 4          25799. 0.00033
+ 5          74037. 0.00095
+ 6         595393. 0.00764
+ 7           7738. 0.00010
+ 8        1158289. 0.01487
+ 9           5070. 0.00007
+
+_N_______Selectivity___________2-TAGs
+ 1                53.     0.02893
+ 2                 0.     0.00000
+ 3                29.     0.22005
+ 4                 8.     0.00276
+ 5                 0.     0.00000
+ 6                35.     0.26916
+ 7                29.     0.00293
+ 8                32.     0.47617
+ 9                 0.     0.00000
+
+_N_______Selectivity_________1,3-TAGs
+ 1                16.     0.00858
+ 2                57.     0.10677
+ 3                29.     0.22222
+ 4                39.     0.01308
+ 5                49.     0.04677
+ 6                25.     0.19404
+ 7                28.     0.00282
+ 8                27.     0.40240
+ 9                51.     0.00331
+
+CALCULATED_TAG_COMPOSITION
+
+Pi 1
+Pa 2
+Pn 3
+Gd 4
+St 5
+Ol 6
+Ar 7
+Li 8
+Ln 9
+
+__N_TAG_species_Mole_Parts
+ 92 Pa Pa Pa       0.00251
+ 93 Pa Pa Pn       0.00522
+ 95 Pa Pa St       0.00110
+ 96 Pa Pa Ol       0.00456
+ 98 Pa Pa Li       0.00945
+101 Pa Pn Pa       0.00522
+102 Pa Pn Pn       0.01087
+104 Pa Pn St       0.00229
+105 Pa Pn Ol       0.00949
+107 Pa Pn Li       0.01968
+116 Pa Gd Li       0.00116
+119 Pa St Pa       0.00110
+120 Pa St Pn       0.00229
+123 Pa St Ol       0.00200
+125 Pa St Li       0.00414
+128 Pa Ol Pa       0.00456
+129 Pa Ol Pn       0.00949
+131 Pa Ol St       0.00200
+132 Pa Ol Ol       0.00829
+134 Pa Ol Li       0.01718
+146 Pa Li Pa       0.00945
+147 Pa Li Pn       0.01968
+148 Pa Li Gd       0.00116
+149 Pa Li St       0.00414
+150 Pa Li Ol       0.01718
+152 Pa Li Li       0.03563
+173 Pn Pa Pa       0.00307
+174 Pn Pa Pn       0.00639
+176 Pn Pa St       0.00134
+177 Pn Pa Ol       0.00558
+179 Pn Pa Li       0.01156
+182 Pn Pn Pa       0.00639
+183 Pn Pn Pn       0.01329
+185 Pn Pn St       0.00280
+186 Pn Pn Ol       0.01161
+188 Pn Pn Li       0.02407
+197 Pn Gd Li       0.00142
+200 Pn St Pa       0.00134
+201 Pn St Pn       0.00280
+204 Pn St Ol       0.00244
+206 Pn St Li       0.00507
+209 Pn Ol Pa       0.00558
+210 Pn Ol Pn       0.01161
+212 Pn Ol St       0.00244
+213 Pn Ol Ol       0.01013
+215 Pn Ol Li       0.02102
+227 Pn Li Pa       0.01156
+228 Pn Li Pn       0.02407
+229 Pn Li Gd       0.00142
+230 Pn Li St       0.00507
+231 Pn Li Ol       0.02102
+233 Pn Li Li       0.04358
+332 St Pi Li       0.00164
+335 St Pa Pa       0.00543
+336 St Pa Pn       0.01130
+338 St Pa St       0.00238
+339 St Pa Ol       0.00987
+341 St Pa Li       0.02046
+344 St Pn Pa       0.01130
+345 St Pn Pn       0.02351
+346 St Pn Gd       0.00138
+347 St Pn St       0.00495
+348 St Pn Ol       0.02053
+350 St Pn Li       0.04258
+354 St Gd Pn       0.00138
+357 St Gd Ol       0.00121
+359 St Gd Li       0.00251
+362 St St Pa       0.00238
+363 St St Pn       0.00495
+365 St St St       0.00104
+366 St St Ol       0.00432
+368 St St Li       0.00896
+371 St Ol Pa       0.00987
+372 St Ol Pn       0.02053
+373 St Ol Gd       0.00121
+374 St Ol St       0.00432
+375 St Ol Ol       0.01793
+377 St Ol Li       0.03718
+388 St Li Pi       0.00164
+389 St Li Pa       0.02046
+390 St Li Pn       0.04258
+391 St Li Gd       0.00251
+392 St Li St       0.00896
+393 St Li Ol       0.03718
+395 St Li Li       0.07710
+
+Total_Minor_species
+                   0.04104
+
+Calculated_S2_Value,_Mole_Parts
+                   1.94228

@@ -1,0 +1,147 @@
+ 
+Sample_TAG_of_seed_Pinus_oil_Year_2023_Stage_III
+ 
+Date:_23-05-2023_Mole_Part_TOTAL_REPORT_AGILENT
+ 
+_N___GLC_Peak_Area__Total_TAGs
+ 1          42194.  .00054
+ 2         145011.  .00186
+ 3         599666.  .00770
+ 4          25799.  .00033
+ 5          74037.  .00095
+ 6         595393.  .00764
+ 7           7738.  .00010
+ 8        1158289.  .01487
+ 9           5070.  .00007
+ 
+_N___GLC_Peak_Area__Free_1,2-DAGs
+ 1         208042.  .00067
+ 2         302117.  .00097
+ 3        2420978.  .00775
+ 4          85359.  .00027
+ 5         195625.  .00063
+ 6        2545783.  .00815
+ 7          31482.  .00010
+ 8        4819586.  .01542
+ 9          12823.  .00004
+ 
+_N_______Selectivity___________2-TAGs
+ 1                53.      .02893
+ 2                 0.      .00000
+ 3                29.      .22005
+ 4                 8.      .00276
+ 5                 0.      .00000
+ 6                35.      .26916
+ 7                29.      .00293
+ 8                32.      .47617
+ 9                 0.      .00000
+ 
+_N_______Selectivity_________1,3-TAGs
+ 1                16.      .00858
+ 2                57.      .10677
+ 3                29.      .22222
+ 4                39.      .01308
+ 5                49.      .04677
+ 6                25.      .19404
+ 7                28.      .00282
+ 8                27.      .40240
+ 9                51.      .00331
+ 
+CALCULATED_TAG_COMPOSITION
+"Pi", "Pa", "Pn", "Gd", "St", "Ol", "Ar", "Li", "Ln"
+2*[a13]*[b2]*[c13]
+
+2: Pa -> Pn
+
+__N_TAG_species_Mole_Parts
+ 92 PaPaPa          .00251 PaPnPa 0.002508857834056941
+ 93 PaPaPn          .00522 PaPnPn 0.005221408632641662
+ 95 PaPaSt          .00110 PaPnSt
+ 96 PaPaOl          .00456 PaPnOl
+ 98 PaPaLi          .00945 PaPnLi
+101 PaPnPa          .00522 PnPnPa
+102 PaPnPn          .01087 PnPnPn
+104 PaPnSt          .00229 PnPnSt
+105 PaPnOl          .00949 PnPnOl
+107 PaPnLi          .01968 PnPnLi
+116 PaGdLi          .00116 GdPnLi
+119 PaStPa          .00110 StPnPa
+120 PaStPn          .00229 StPnPn
+123 PaStOl          .00200 StPnOl
+125 PaStLi          .00414 StPnLi
+128 PaOlPa          .00456 OlPnPa
+129 PaOlPn          .00949 OlPnPn
+131 PaOlSt          .00200 OlPnSt
+132 PaOlOl          .00829 OlPnOl
+134 PaOlLi          .01718 OlPnLi
+146 PaLiPa          .00945 LiPnPa
+147 PaLiPn          .01968 LiPnPn
+148 PaLiGd          .00116 LiPnGd
+149 PaLiSt          .00414 LiPnSt
+150 PaLiOl          .01718 LiPnOl
+152 PaLiLi          .03563 LiPnLi 0.03563249306288052
+173 PnPaPa          .00307 PaOlPa 0.0030686667680882114
+174 PnPaPn          .00639 PaOlPn 0.006386477119624915
+176 PnPaSt          .00134 PaOlSt 0.0013441477121270953
+177 PnPaOl          .00558 PaOlOl 0.005576673739821113
+179 PnPaLi          .01156 PaOlLi 0.011564711646880957
+182 PnPnPa          .00639 PnOlPa 0.006386477119624915
+183 PnPnPn          .01329 PnOlPn
+185 PnPnSt          .00280 PnOlSt
+186 PnPnOl          .01161 PnOlOl
+188 PnPnLi          .02407 PnOlLi
+197 PnGdLi          .00142 GdOlLi
+200 PnStPa          .00134 StOlPa
+201 PnStPn          .00280 StOlPn
+204 PnStOl          .00244 StOlOl
+206 PnStLi          .00507 StOlLi
+209 PnOlPa          .00558 OlOlPa
+210 PnOlPn          .01161 OlOlPn
+212 PnOlSt          .00244 OlOlSt
+213 PnOlOl          .01013 OlOlOl
+215 PnOlLi          .02102 OlOlLi
+227 PnLiPa          .01156 LiOlPa
+228 PnLiPn          .02407 LiOlPn
+229 PnLiGd          .00142 LiOlGd
+230 PnLiSt          .00507 LiOlSt
+231 PnLiOl          .02102 LiOlOl
+233 PnLiLi          .04358 LiOlLi
+332 StPiLi          .00164 PiLiLi 0.0016439102000552499
+335 StPaPa          .00543 PaLiPa 0.005428859131838853
+336 StPaPn          .01130 PaLiPn
+338 StPaSt          .00238 PaLiSt
+339 StPaOl          .00987 PaLiOl
+341 StPaLi          .02046 PaLiLi
+344 StPnPa          .01130 PnLiPa
+345 StPnPn          .02351 PnLiPn
+346 StPnGd          .00138 PnLiGd
+347 StPnSt          .00495 PnLiSt
+348 StPnOl          .02053 PnLiOl
+350 StPnLi          .04258 PnLiLi
+354 StGdPn          .00138 GdLiPn
+357 StGdOl          .00121 GdLiOl
+359 StGdLi          .00251 GdLiLi
+362 StStPa          .00238 StLiPa
+363 StStPn          .00495 StLiPn
+365 StStSt          .00104 StLiSt
+366 StStOl          .00432 StLiOl
+368 StStLi          .00896 StLiLi
+371 StOlPa          .00987 OlLiPa
+372 StOlPn          .02053 OlLiPn
+373 StOlGd          .00121 OlLiGd
+374 StOlSt          .00432 OlLiSt
+375 StOlOl          .01793 OlLiOl
+377 StOlLi          .03718 OlLiLi
+388 StLiPi          .00164 LiLiPi
+389 StLiPa          .02046 LiLiPa
+390 StLiPn          .04258 LiLiPn
+391 StLiGd          .00251 LiLiGd
+392 StLiSt          .00896 LiLiSt
+393 StLiOl          .03718 LiLiOl
+395 StLiLi          .07710 LiLiLi 0.07710432322177292
+ 
+Total_Minor_species
+                    .04104
+ 
+Calculated_S2_Value,_Mole_Parts
+                   1.94228
