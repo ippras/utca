@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>FA</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="fa">FA</h1>
+<h2 id="indices">Indices</h2>
+<h3 id="fa-indices-sn-123">FA indices (SN-1,2,3)</h3>
+<table>
+<thead>
+<tr>
+<th>index</th>
+<th>К-2233</th>
+<th>К-2699</th>
+<th>К-2776</th>
+<th>К-3110</th>
+<th>К-3384</th>
+<th>К-3599</th>
+<th>К-3675</th>
+<th>К-3714</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saturated</td>
+<td>0.1 ±0.01</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+</tr>
+<tr>
+<td>Monounsaturated</td>
+<td>0.5 ±0</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.8 ±0</td>
+<td>0.4 ±0</td>
+<td>0.9 ±0</td>
+<td>0.4 ±0</td>
+<td>0.4 ±0.01</td>
+</tr>
+<tr>
+<td>Polyunsaturated</td>
+<td>0.4 ±0</td>
+<td>0.5 ±0.01</td>
+<td>0.4 ±0</td>
+<td>0 ±0</td>
+<td>0.5 ±0</td>
+<td>0 ±0</td>
+<td>0.5 ±0</td>
+<td>0.5 ±0</td>
+</tr>
+<tr>
+<td>Unsaturated</td>
+<td>0.9 ±0.01</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+</tr>
+<tr>
+<td>Omega -9</td>
+<td>0.4 ±0</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.8 ±0</td>
+<td>0.4 ±0</td>
+<td>0.9 ±0</td>
+<td>0.4 ±0</td>
+<td>0.4 ±0.01</td>
+</tr>
+<tr>
+<td>Omega -6</td>
+<td>0.4 ±0</td>
+<td>0.5 ±0.01</td>
+<td>0.4 ±0</td>
+<td>0 ±0</td>
+<td>0.5 ±0</td>
+<td>0 ±0</td>
+<td>0.5 ±0</td>
+<td>0.5 ±0</td>
+</tr>
+<tr>
+<td>Omega -3</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Delta 9</td>
+<td>0.8 ±0.01</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+</tr>
+<tr>
+<td>Trans</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Eicosapentaenoic and Docosahexaenoic</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Fish Lipid Quality</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Health Promoting Index</td>
+<td>13 ±0.38</td>
+<td>12.3 ±0.38</td>
+<td>15.9 ±0.62</td>
+<td>17.4 ±0.73</td>
+<td>13.8 ±0.49</td>
+<td>25.3 ±1.15</td>
+<td>15.9 ±0.77</td>
+<td>13.8 ±0.54</td>
+</tr>
+<tr>
+<td>Hypocholesterolemic to Hypercholesterolemic</td>
+<td>13.1 ±0.39</td>
+<td>12.3 ±0.4</td>
+<td>15.8 ±0.61</td>
+<td>17.5 ±0.7</td>
+<td>13.8 ±0.48</td>
+<td>24.7 ±1.13</td>
+<td>15.9 ±0.65</td>
+<td>13.7 ±0.55</td>
+</tr>
+<tr>
+<td>Index of Atherogenicity</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+</tr>
+<tr>
+<td>Index of Thrombogenicity</td>
+<td>0.3 ±0.01</td>
+<td>0.2 ±0.01</td>
+<td>0.3 ±0.01</td>
+<td>0.3 ±0</td>
+<td>0.2 ±0.01</td>
+<td>0.1 ±0</td>
+<td>0.2 ±0.01</td>
+<td>0.2 ±0.01</td>
+</tr>
+<tr>
+<td>Linoleic to αLinolenic</td>
+<td>1896.8 ±360.75</td>
+<td>2434.4 ±699.75</td>
+<td>5339.8 ±1749.96</td>
+<td>43.3 ±16.83</td>
+<td>3003.8 ±306.13</td>
+<td>inf ±NaN</td>
+<td>9608.2 ±10242.5</td>
+<td>1873.2 ±301.46</td>
+</tr>
+<tr>
+<td>Polyunsaturated -6 to Polyunsaturated -3</td>
+<td>1896.8 ±360.75</td>
+<td>2434.4 ±699.75</td>
+<td>5339.8 ±1749.96</td>
+<td>43.3 ±16.83</td>
+<td>3003.8 ±306.13</td>
+<td>inf ±NaN</td>
+<td>9608.2 ±10242.5</td>
+<td>1873.2 ±301.46</td>
+</tr>
+<tr>
+<td>Polyunsaturated to Saturated</td>
+<td>2.9 ±0.14</td>
+<td>4.1 ±0.19</td>
+<td>3.6 ±0.05</td>
+<td>0.1 ±0</td>
+<td>6 ±0.23</td>
+<td>0.2 ±0.01</td>
+<td>5.1 ±0.21</td>
+<td>4.9 ±0.14</td>
+</tr>
+<tr>
+<td>Unsaturation Index</td>
+<td>1.3 ±0.01</td>
+<td>1.3 ±0.01</td>
+<td>1.3 ±0</td>
+<td>0.9 ±0</td>
+<td>1.4 ±0</td>
+<td>0.9 ±0</td>
+<td>1.4 ±0.01</td>
+<td>1.4 ±0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="fa-indices-sn-13">FA indices (SN-1,3)</h3>
+<table>
+<thead>
+<tr>
+<th>index</th>
+<th>К-2233</th>
+<th>К-2699</th>
+<th>К-2776</th>
+<th>К-3110</th>
+<th>К-3384</th>
+<th>К-3599</th>
+<th>К-3675</th>
+<th>К-3714</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saturated</td>
+<td>0.2 ±0.01</td>
+<td>0.2 ±0</td>
+<td>0.2 ±0</td>
+<td>0.2 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0.01</td>
+<td>0.1 ±0.01</td>
+</tr>
+<tr>
+<td>Monounsaturated</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.8 ±0</td>
+<td>0.4 ±0.01</td>
+<td>0.9 ±0</td>
+<td>0.4 ±0</td>
+<td>0.4 ±0.02</td>
+</tr>
+<tr>
+<td>Polyunsaturated</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0 ±0</td>
+<td>0.4 ±0.01</td>
+<td>0 ±0</td>
+<td>0.5 ±0.01</td>
+<td>0.4 ±0.02</td>
+</tr>
+<tr>
+<td>Unsaturated</td>
+<td>0.8 ±0.01</td>
+<td>0.8 ±0</td>
+<td>0.8 ±0</td>
+<td>0.8 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0.01</td>
+<td>0.9 ±0.01</td>
+</tr>
+<tr>
+<td>Omega -9</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.8 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.8 ±0.01</td>
+<td>0.4 ±0</td>
+<td>0.4 ±0.02</td>
+</tr>
+<tr>
+<td>Omega -6</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0 ±0</td>
+<td>0.4 ±0.01</td>
+<td>0 ±0</td>
+<td>0.5 ±0.01</td>
+<td>0.4 ±0.02</td>
+</tr>
+<tr>
+<td>Omega -3</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Delta 9</td>
+<td>0.8 ±0.01</td>
+<td>0.8 ±0.01</td>
+<td>0.8 ±0</td>
+<td>0.8 ±0</td>
+<td>0.9 ±0</td>
+<td>0.9 ±0</td>
+<td>0.8 ±0.01</td>
+<td>0.8 ±0.01</td>
+</tr>
+<tr>
+<td>Trans</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Eicosapentaenoic and Docosahexaenoic</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Fish Lipid Quality</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Health Promoting Index</td>
+<td>8 ±0.25</td>
+<td>7.8 ±0.21</td>
+<td>11 ±0.35</td>
+<td>11.9 ±0.6</td>
+<td>9.3 ±0.27</td>
+<td>16.5 ±0.92</td>
+<td>10.8 ±0.69</td>
+<td>9.5 ±0.71</td>
+</tr>
+<tr>
+<td>Hypocholesterolemic to Hypercholesterolemic</td>
+<td>8 ±0.26</td>
+<td>7.7 ±0.23</td>
+<td>10.8 ±0.34</td>
+<td>11.9 ±0.59</td>
+<td>9.2 ±0.28</td>
+<td>15.9 ±0.9</td>
+<td>10.7 ±0.59</td>
+<td>9.4 ±0.73</td>
+</tr>
+<tr>
+<td>Index of Atherogenicity</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0</td>
+<td>0.1 ±0.01</td>
+<td>0.1 ±0.01</td>
+</tr>
+<tr>
+<td>Index of Thrombogenicity</td>
+<td>0.5 ±0.02</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0</td>
+<td>0.3 ±0.01</td>
+<td>0.2 ±0.01</td>
+<td>0.3 ±0.01</td>
+<td>0.3 ±0.02</td>
+</tr>
+<tr>
+<td>Linoleic to αLinolenic</td>
+<td>1126.9 ±214.84</td>
+<td>1363.5 ±401.8</td>
+<td>inf ±NaN</td>
+<td>43.3 ±16.83</td>
+<td>1662.7 ±151.09</td>
+<td>inf ±NaN</td>
+<td>5655.9 ±6079.32</td>
+<td>1076.3 ±163.97</td>
+</tr>
+<tr>
+<td>Polyunsaturated -6 to Polyunsaturated -3</td>
+<td>1126.9 ±214.84</td>
+<td>1363.5 ±401.8</td>
+<td>inf ±NaN</td>
+<td>43.3 ±16.83</td>
+<td>1662.7 ±151.09</td>
+<td>inf ±NaN</td>
+<td>5655.9 ±6079.32</td>
+<td>1076.3 ±163.97</td>
+</tr>
+<tr>
+<td>Polyunsaturated to Saturated</td>
+<td>1.7 ±0.1</td>
+<td>2.3 ±0.11</td>
+<td>2.3 ±0.09</td>
+<td>0.1 ±0</td>
+<td>3.5 ±0.1</td>
+<td>0.2 ±0.01</td>
+<td>3.1 ±0.18</td>
+<td>3 ±0.23</td>
+</tr>
+<tr>
+<td>Unsaturation Index</td>
+<td>1.2 ±0.02</td>
+<td>1.2 ±0.01</td>
+<td>1.2 ±0.01</td>
+<td>0.8 ±0</td>
+<td>1.3 ±0.01</td>
+<td>0.9 ±0</td>
+<td>1.3 ±0.01</td>
+<td>1.3 ±0.02</td>
+</tr>
+</tbody>
+</table>
+<h3 id="fa-indices-sn-2">FA indices (SN-2)</h3>
+<table>
+<thead>
+<tr>
+<th>index</th>
+<th>К-2233</th>
+<th>К-2699</th>
+<th>К-2776</th>
+<th>К-3110</th>
+<th>К-3384</th>
+<th>К-3599</th>
+<th>К-3675</th>
+<th>К-3714</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saturated</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0.01</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0.01</td>
+</tr>
+<tr>
+<td>Monounsaturated</td>
+<td>0.5 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>1 ±0</td>
+<td>0.3 ±0.01</td>
+<td>1 ±0</td>
+<td>0.3 ±0.01</td>
+<td>0.3 ±0.03</td>
+</tr>
+<tr>
+<td>Polyunsaturated</td>
+<td>0.5 ±0.01</td>
+<td>0.6 ±0.01</td>
+<td>0.6 ±0.02</td>
+<td>0 ±0</td>
+<td>0.7 ±0.01</td>
+<td>0 ±0</td>
+<td>0.6 ±0.01</td>
+<td>0.6 ±0.03</td>
+</tr>
+<tr>
+<td>Unsaturated</td>
+<td>1 ±0</td>
+<td>1 ±0</td>
+<td>1 ±0.01</td>
+<td>1 ±0</td>
+<td>1 ±0</td>
+<td>1 ±0</td>
+<td>1 ±0</td>
+<td>1 ±0.01</td>
+</tr>
+<tr>
+<td>Omega -9</td>
+<td>0.5 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>0.4 ±0.01</td>
+<td>1 ±0</td>
+<td>0.3 ±0.01</td>
+<td>1 ±0</td>
+<td>0.3 ±0.01</td>
+<td>0.3 ±0.03</td>
+</tr>
+<tr>
+<td>Omega -6</td>
+<td>0.5 ±0.01</td>
+<td>0.6 ±0.01</td>
+<td>0.6 ±0.02</td>
+<td>0 ±0</td>
+<td>0.7 ±0.01</td>
+<td>0 ±0</td>
+<td>0.6 ±0.01</td>
+<td>0.6 ±0.03</td>
+</tr>
+<tr>
+<td>Omega -3</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Delta 9</td>
+<td>1 ±0</td>
+<td>1 ±0</td>
+<td>1 ±0.01</td>
+<td>1 ±0</td>
+<td>1 ±0</td>
+<td>1 ±0</td>
+<td>1 ±0</td>
+<td>1 ±0.01</td>
+</tr>
+<tr>
+<td>Trans</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Eicosapentaenoic and Docosahexaenoic</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Fish Lipid Quality</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+</tr>
+<tr>
+<td>Health Promoting Index</td>
+<td>653.7 ±146.87</td>
+<td>424.9 ±197.8</td>
+<td>69.7 ±11.62</td>
+<td>73.2 ±6.21</td>
+<td>105.5 ±33.42</td>
+<td>608.5 ±324.48</td>
+<td>93.2 ±18.48</td>
+<td>83.5 ±49.24</td>
+</tr>
+<tr>
+<td>Hypocholesterolemic to Hypercholesterolemic</td>
+<td>653.7 ±146.87</td>
+<td>424.9 ±197.8</td>
+<td>69.7 ±11.62</td>
+<td>73.2 ±6.21</td>
+<td>105.5 ±33.42</td>
+<td>608.5 ±324.48</td>
+<td>93.2 ±18.48</td>
+<td>83.5 ±49.24</td>
+</tr>
+<tr>
+<td>Index of Atherogenicity</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0.01</td>
+</tr>
+<tr>
+<td>Index of Thrombogenicity</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0.01</td>
+<td>NaN ±NaN</td>
+<td>0 ±0.01</td>
+<td>0 ±0</td>
+<td>0 ±0</td>
+<td>0 ±0.02</td>
+</tr>
+<tr>
+<td>Linoleic to αLinolenic</td>
+<td>inf ±NaN</td>
+<td>inf ±NaN</td>
+<td>116.2 ±54.98</td>
+<td>NaN ±NaN</td>
+<td>inf ±NaN</td>
+<td>inf ±NaN</td>
+<td>inf ±NaN</td>
+<td>inf ±NaN</td>
+</tr>
+<tr>
+<td>Polyunsaturated -6 to Polyunsaturated -3</td>
+<td>inf ±NaN</td>
+<td>inf ±NaN</td>
+<td>116.2 ±54.98</td>
+<td>NaN ±NaN</td>
+<td>inf ±NaN</td>
+<td>inf ±NaN</td>
+<td>inf ±NaN</td>
+<td>inf ±NaN</td>
+</tr>
+<tr>
+<td>Polyunsaturated to Saturated</td>
+<td>325.5 ±68.66</td>
+<td>224.9 ±143.92</td>
+<td>25.1 ±7.06</td>
+<td>0 ±0</td>
+<td>76.1 ±23.23</td>
+<td>5.6 ±2.97</td>
+<td>60.8 ±12.53</td>
+<td>55.7 ±35.31</td>
+</tr>
+<tr>
+<td>Unsaturation Index</td>
+<td>1.5 ±0.01</td>
+<td>1.6 ±0.01</td>
+<td>1.5 ±0.03</td>
+<td>1 ±0</td>
+<td>1.7 ±0.01</td>
+<td>1 ±0</td>
+<td>1.6 ±0.01</td>
+<td>1.6 ±0.04</td>
+</tr>
+</tbody>
+</table>
+
+            
+            
+        </body>
+        </html>
