@@ -1,26 +1,26 @@
-# Abbreviations
+# Сокращения
 
-* **EF**: Enrichment factor
-* **SF**: Selectivity factor
-* **FA**: Fatty acid
-* **TAG**: Triacylglycerol
-* **ECN**: Equivalent carbon number
+* **EF**: Фактор обогащения
+* **SF**: Фактор селективности
+* **FA**: Жирные кислоты (ЖК)
+* **TAG**: Триацилглицерины (ТАГ)
+* **ECN**: Эквивалентное углеродное число (ЭУЧ)
 
-## Fatty acids
+## Жирные кислоты
 
-* **A**: Arachidic
-* **B**: Behenic
-* **L**: Linoleic
-* **O**: Oleic
-* **P**: Palmitic
-* **S**: Stearic
-* **V**: cis-Vaccenic
+* **A**: Арахиновая
+* **B**: Бегеновая
+* **L**: Линолевая
+* **O**: Олеиновая
+* **P**: Пальмитиновая
+* **S**: Стеариновая
+* **V**: цис-Вакценовая
 
-## Compositions
+## Составы
 
-* **MNC**: Non-stereospecific (monomolecular), ECN composition
-* **MSC**: Non-stereospecific (monomolecular), species composition
-* **MTC**: Non-stereospecific (monomolecular), type composition
-* **MUC**: Non-stereospecific (monomolecular), unsaturation composition
-* **PSC**: Positionalspecific, species composition
-* **PTC**: Positionalspecific, type composition
+* **MNC**: Нестереоспецифичный (мономолекулярный), состав по ЭУЧ
+* **MSC**: Нестереоспецифичный (мономолекулярный), видовой состав
+* **MTC**: Нестереоспецифичный (мономолекулярный), типовой состав
+* **MUC**: Нестереоспецифичный (мономолекулярный), состав по ненасыщенности
+* **PSC**: Позиционно-специфичный, видовой состав
+* **PTC**: Позиционно-специфичный, типовой состав
