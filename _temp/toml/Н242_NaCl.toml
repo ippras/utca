@@ -1,0 +1,91 @@
+name = "Н242_NaCl"
+
+[[fatty_acids]]
+label = "Lau"
+formula = "H24C12O2"
+data = { mag2 = 200929.0, dag1223 = 156323.0, tag123 = 168093.0 }
+
+[[fatty_acids]]
+label = "Myr"
+formula = "H28C14O2"
+data = { mag2 = 9096050.0, dag1223 = 1619776.0, tag123 = 3500238.0 }
+
+[[fatty_acids]]
+label = "Pam"
+formula = "H32C16O2"
+data = { mag2 = 133012252.0, dag1223 = 21376267.0, tag123 = 42813431.0 }
+
+[[fatty_acids]]
+label = "Hx7"
+formula = "H30C16O2"
+data = { mag2 = 110812.0, dag1223 = 114449.0, tag123 = 257222.0 }
+
+[[fatty_acids]]
+label = "Hx9"
+formula = "H30C16O2"
+data = { mag2 = 80696658.0, dag1223 = 23378247.0, tag123 = 112403196.0 }
+
+[[fatty_acids]]
+label = "Hx11"
+formula = "H30C16O2"
+data = { mag2 = 445330.0, dag1223 = 46815.0, tag123 = 266628.0 }
+
+[[fatty_acids]]
+label = "Pl7"
+formula = "H28C16O2"
+data = { mag2 = 619202.0, dag1223 = 86449.0, tag123 = 491057.0 }
+
+[[fatty_acids]]
+label = "Pl9"
+formula = "H28C16O2"
+data = { mag2 = 361159.0, dag1223 = 1.0, tag123 = 934681.0 }
+
+[[fatty_acids]]
+label = "Ste"
+formula = "H36C18O2"
+data = { mag2 = 4092412.0, dag1223 = 213122.0, tag123 = 6381240.0 }
+
+[[fatty_acids]]
+label = "Ole"
+formula = "H34C18O2"
+data = { mag2 = 6634578.0, dag1223 = 8616225.0, tag123 = 21871058.0 }
+
+[[fatty_acids]]
+label = "Vac"
+formula = "H34C18O2"
+data = { mag2 = 857281.0, dag1223 = 313650.0, tag123 = 1671866.0 }
+
+[[fatty_acids]]
+label = "Lin"
+formula = "H30C18O2"
+data = { mag2 = 7258297.0, dag1223 = 5637541.0, tag123 = 19613367.0 }
+
+[[fatty_acids]]
+label = "gLn"
+formula = "H30C18O2"
+data = { mag2 = 493393.0, dag1223 = 81310.0, tag123 = 353193.0 }
+
+[[fatty_acids]]
+label = "Eic"
+formula = "H40C20O2"
+data = { mag2 = 234953.0, dag1223 = 1.0, tag123 = 443619.0 }
+
+[[fatty_acids]]
+label = "aLn"
+formula = "H30C18O2"
+data = { mag2 = 2123458.0, dag1223 = 1.0, tag123 = 9443622.0 }
+
+[[fatty_acids]]
+label = "Etr"
+formula = "H34C20O2"
+data = { mag2 = 1.0, dag1223 = 79760.0, tag123 = 792984.0 }
+
+[[fatty_acids]]
+label = "ARA"
+formula = "H32C20O2"
+data = { mag2 = 747119.0, dag1223 = 230362.0, tag123 = 2954482.0 }
+
+[[fatty_acids]]
+label = "EPA"
+formula = "H30C20O2"
+data = { mag2 = 10179144.0, dag1223 = 1316465.0, tag123 = 17784816.0 }
