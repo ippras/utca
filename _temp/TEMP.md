@@ -1,24 +1,21 @@
-# С70{Control}.2023-10-24.toml
-"Lau-H24C12O2"
-"Myr-H28C14O2"
-"Pam-H32C16O2"
-"Hx7-H30C16O2"
-"Hx9-H30C16O2"
-"Hx11-H30C16O2"
-"Pl7-H28C16O2"
-"Pl9-H28C16O2"
-"Ste-H36C18O2"
-"Ole-H34C18O2"
-"Vac-H34C18O2"
-"Lin-H30C18O2"
-"gLn-H30C18O2"
-"Eic-H40C20O2"
-"aLn-H30C18O2"
-"Etr-H34C20O2"
-"ARA-H32C20O2" 20:4
-"EPA-H30C20O2" 20:5
 
-# С70{H2O2}.2023-10-24.toml
+H626{Control;3day;SN-2}
+H626{Control;9day;SN-2}
 
+H626{Control;3day;SN-1,2(2,3)}
+H626{Control;9day;SN-1,2(2,3)}
 
-# С70{NaCl}.2023-10-24.toml
+Myr
+Pam
+H7x
+H9x
+Pld
+Ste
+Plt
+Ole
+Vac
+Lin
+Ara
+Lnn
+Gad
+Beh
