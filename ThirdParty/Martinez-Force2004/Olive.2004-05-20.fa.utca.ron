@@ -1,9 +1,9 @@
 #![enable(unwrap_newtypes)]
 (
     meta: {
-        "Authors": "",
+        "Authors": "Giorgi Vladimirovich Kazakov,Roman Alexandrovich Sidorov",
         "Date": "2004-05-20",
-        "Description": "",
+        "Description": "https://doi.org/10.1016/j.ab.2004.07.019",
         "Name": "Olive",
         "Version": "0.0.0",
     },
