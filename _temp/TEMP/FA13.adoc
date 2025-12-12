@@ -1,0 +1,18 @@
+= $DAG_{12(23)}$
+
+|===
+|14:0        |Methyl tetradecanoate                                |22.050|1484366.155 |1.232
+|15:0        |Pentadecanoic acid, methyl ester                     |23.281|104783.653  |0.087
+|16:0        |Hexadecanoic acid, methyl ester                      |24.760|68772967.133|57.064
+|16:1-9      |9-Hexadecenoic acid, methyl ester, (Z)-              |25.661|125507.397  |0.104
+|18:0        |Methyl stearate                                      |27.799|13702656.744|11.370
+|18:1-9      |9-Octadecenoic acid, methyl ester                    |28.516|15670786.908|13.003
+|18:1-11     |11-Octadecenoic acid, methyl ester                   |28.624|375993.265  |0.312
+|18:1-9,12   |9,12-Octadecadienoic acid, methyl ester              |29.618|11573410.246|9.603
+|20:0        |Eicosanoic acid, methyl ester                        |30.511|3155350.085 |2.618
+|18:3-9,12,15|9,12,15-Octadecatrienoic acid, methyl ester, (Z,Z,Z)-|30.846|3357993.464 |2.786
+|20:1-9      |Methyl 9-eicosenoate                                 |31.120|711345.508  |0.590
+|22:0        |Docosanoic acid, methyl ester                        |32.847|1483305.122 |1.231
+|22:1-13     |                                                     |      |            |
+|24:0        |Tetracosanoic acid, methyl ester                     |      |            |
+|===

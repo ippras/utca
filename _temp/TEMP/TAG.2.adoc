@@ -1,0 +1,13 @@
+= $TAG 2$
+
+|===
+|16:0        |Hexadecanoic acid, methyl ester                      |24.748|41696828.297|51.120
+|18:0        |Methyl stearate                                      |27.790|4801931.823 |5.887
+|18:1-9      |9-Octadecenoic acid, methyl ester                    |28.507|14568366.743|17.861
+|18:1-11     |11-Octadecenoic acid, methyl ester                   |28.624|136899.387  |0.168
+|18:2-9,12   |9,12-Octadecadienoic acid, methyl ester              |29.610|13147918.080|16.119
+|20:0        |Eicosanoic acid, methyl ester                        |30.499|2091086.611 |2.564
+|18:3-9,12,15|9,12,15-Octadecatrienoic acid, methyl ester, (Z,Z,Z)-|30.840|2802224.856 |3.436
+|20:1-9      |Methyl 9-eicosenoate                                 |31.109|440009.357  |0.539
+|22:0        |Docosanoic acid, methyl ester                        |32.841|1880768.719 |2.306
+|===

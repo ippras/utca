@@ -1,0 +1,14 @@
+= $MAG_2 1$
+
+|===
+|16:0        |Hexadecanoic acid, methyl ester                      |24.747|1559170.202 |2.438
+|18:0        |Methyl stearate                                      |27.799|577806.435  |0.903
+|18:1-9      |9-Octadecenoic acid, methyl ester                    |28.515|32673484.375|51.083
+|18:1-11     |                                                     |      |            |
+|18:2-9,12   |9,12-Octadecadienoic acid, methyl ester              |29.614|27455508.544|42.925
+|20:0        |                                                     |      |            |
+|18:3-9,12,15|9,12,15-Octadecatrienoic acid, methyl ester, (Z,Z,Z)-|30.842|842143.255  |1.317
+|20:1-9      |                                                     |      |            |
+|22:0        |Docosanoic acid, methyl ester                        |32.843|631635.280  |0.988
+|===
+|22:1-13     |13-Docosenoic acid, methyl ester, (Z)-               |33.373|221615.102  |0.346

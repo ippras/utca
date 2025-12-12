@@ -1,0 +1,13 @@
+= $DAG_{12(23)} 3$
+
+|===
+|16:0        |Hexadecanoic acid, methyl ester        |24.748|6345512.727|31.804
+|18:0        |Methyl stearate                        |27.793|906608.227 |4.544
+|18:1-9      |9-Octadecenoic acid, methyl ester      |28.510|6376214.222|31.958
+|18:1-11     |                                       |      |           |
+|18:2-9,12   |9,12-Octadecadienoic acid, methyl ester|29.613|5305566.661|26.592
+|20:0        |Eicosanoic acid, methyl ester          |30.505|318825.429 |1.598
+|18:3-9,12,15|9,12,15-Octadecatrienoic acid, (Z,Z,Z)-|30.840|440156.002 |2.206
+|20:1-9      |cis-13-Eicosenoic acid, methyl ester   |31.657|52021.705  |0.261
+|22:0        |Docosanoic acid, methyl ester          |32.844|206746.485 |1.036
+|===

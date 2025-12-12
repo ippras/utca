@@ -1,0 +1,215 @@
+#![enable(implicit_some)]
+#![enable(unwrap_newtypes)]
+(
+    columns: [
+        {
+            "name": "FA",
+            "datatype": Struct([
+                (
+                    name: "Label",
+                    dtype: String,
+                ),
+                (
+                    name: "Carbons",
+                    dtype: UInt8,
+                ),
+                (
+                    name: "Doubles",
+                    dtype: List(Int8),
+                ),
+                (
+                    name: "Triples",
+                    dtype: List(Int8),
+                ),
+            ]),
+            "length": 8,
+            "values": [
+                {
+                    "name": "Label",
+                    "datatype": String,
+                    "bit_settings": "",
+                    "values": [
+                        "Pa",
+                        "St",
+                        "Ol",
+                        "Li",
+                        "Ar",
+                        "Ln",
+                        "Ga",
+                        "Be",
+                    ],
+                },
+                {
+                    "name": "Carbons",
+                    "datatype": UInt8,
+                    "bit_settings": "",
+                    "values": [
+                        16,
+                        18,
+                        18,
+                        18,
+                        20,
+                        18,
+                        20,
+                        22,
+                    ],
+                },
+                {
+                    "name": "Doubles",
+                    "datatype": List(Int8),
+                    "bit_settings": "",
+                    "values": [
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [9],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [9, 12],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [9, 12, 15],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [9],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                    ],
+                },
+                {
+                    "name": "Triples",
+                    "datatype": List(Int8),
+                    "bit_settings": "",
+                    "values": [
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                        {
+                            "name": "",
+                            "datatype": Int8,
+                            "bit_settings": "",
+                            "values": [],
+                        },
+                    ],
+                },
+            ],
+        },
+        {
+            "name": "TAG",
+            "datatype": Float64,
+            "bit_settings": "",
+            "values": [
+                44787902.719,
+                5293086.570,
+                16002702.583,
+                15251551.790,
+                2234271.164,
+                3079559.720,
+                550935.042,
+                1865383.194,
+            ],
+        },
+        {
+            "name": "DAG1223",
+            "datatype": Float64,
+            "bit_settings": "",
+            "values": [
+                6345512.727,
+                906608.227,
+                6376214.222,
+                5305566.661,
+                318825.429,
+                440156.002,
+                52021.705,
+                206746.485,
+            ],
+        },
+        {
+            "name": "MAG2",
+            "datatype": Float64,
+            "bit_settings": "",
+            "values": [
+                1390351.012,
+                525421.976,
+                38460260.343,
+                32963430.767,
+                None,
+                992380.301,
+                None,
+                1185558.161,
+            ],
+        },
+    ],
+)
