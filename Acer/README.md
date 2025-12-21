@@ -1,23 +1,23 @@
 # Acer
 
-| #   | Species                                       | Date of collection   | Date of analysis |
-| --- | --------------------------------------------- | -------------------- | ---------------- |
-| 1   | Acer campestre (Клен полевой)                 | +                    |                  |
-| 2   | Acer cappadocicum (Клен каппадокийский)       |                      |                  |
-| 3   | Acer circinatum (Клен завитой)                |                      |                  |
-| 4   | Acer ginnala (Клен приречный)                 | +                    | 2025-07-08       |
-| 5   | Acer mandshuricum (Клен маньчжурский)         |                      |                  |
-| 6   | Acer mono (Клен моно)                         |                      |                  |
-| 7   | Acer monspessulanum (Клен монпелийский)       |                      |                  |
-| 8   | Acer negundo (Клен ясенелистный)              | +                    |                  |
-| 9   | Acer pensylvanicum (Клен пенсильванский)      | +                    | 2025-07-08       |
-| 10  | Acer pseudoplatanus (Клен псевдоплатанус)     | не собран (~октябрь) |                  |
-| 11  | Acer pseudosieboldianum (Клен ложнозибольдов) | +                    |                  |
-| 12  | Acer rubrum (Клен красный)                    | +                    | 2025-07-09       |
-| 13  | Acer saccharinum (Клен серебристый)           | +                    |                  |
-| 14  | Acer saccharum (Клен сахарный)                | не собран (~октябрь) |                  |
-| 15  | Acer semenovii (Клен семенова)                |                      |                  |
-| 16  | Acer spicatum (Клен колосистый)               | +                    | 2025-07-09       |
-| 17  | Acer tataricum (Клен татарский)               | +                    |                  |
-| 18  | Acer tegmentosum (Клен зеленокорый)           | +                    |                  |
-| 19  | Acer ukurunduense (Клен желтый)               | +                    | 2025-07-08       |
+| #   | Species                                       | Date of collection   | Date of analysis       | Note                                      |
+| --- | --------------------------------------------- | -------------------- | ---------------------- | ----------------------------------------- |
+| 1   | Acer campestre (Клен полевой)                 | +                    |                        |                                           |
+| 2   | Acer cappadocicum (Клен каппадокийский)       |                      |                        |                                           |
+| 3   | Acer circinatum (Клен завитой)                |                      |                        |                                           |
+| 4   | Acer ginnala (Клен приречный)                 | +                    | 2025-07-08             |                                           |
+| 5   | Acer mandshuricum (Клен маньчжурский)         |                      |                        |                                           |
+| 6   | Acer mono (Клен моно)                         |                      |                        |                                           |
+| 7   | Acer monspessulanum (Клен монпелийский)       |                      |                        |                                           |
+| 8   | Acer negundo (Клен ясенелистный)              | +                    |                        |                                           |
+| 9   | Acer pensylvanicum (Клен пенсильванский)      | +                    | 2025-07-08             |                                           |
+| 10  | Acer pseudoplatanus (Клен псевдоплатанус)     | не собран (~октябрь) |                        |                                           |
+| 11  | Acer pseudosieboldianum (Клен ложнозибольдов) | +                    |                        |                                           |
+| 12  | Acer rubrum (Клен красный)                    | +                    | 2025-07-09             |                                           |
+| 13  | Acer saccharinum (Клен серебристый)           | +                    |                        |                                           |
+| 14  | Acer saccharum (Клен сахарный)                | не собран (~октябрь) |                        |                                           |
+| 15  | Acer semenovii (Клен семенова)                |                      |                        |                                           |
+| 16  | Acer spicatum (Клен колосистый)               | +                    | 2025-07-09             |                                           |
+| 17  | Acer tataricum (Клен татарский)               | +                    | 2025-07-14; 2025-12-16 | Нет конфигов. Вытащить SN-2 от 2025-12-16 |
+| 18  | Acer tegmentosum (Клен зеленокорый)           | +                    |                        |                                           |
+| 19  | Acer ukurunduense (Клен желтый)               | +                    | 2025-07-08             |                                           |
