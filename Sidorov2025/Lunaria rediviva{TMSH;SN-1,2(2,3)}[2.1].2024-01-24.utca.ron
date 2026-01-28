@@ -1,7 +1,7 @@
 #![enable(unwrap_newtypes)]
 (
     meta: {
-        "Authors": "Giorgi Vladimirovich Kazakov,Roman Alexandrovich Sidorov",
+        "Authors": "Giorgi Vladimirovich Kazakov;Roman Alexandrovich Sidorov",
         "Date": "2024-01-24",
         "Description": "https://doi.org/10.3390/plants14040612",
         "Name": "Lunaria rediviva{TMSH;SN-1,2(2,3)}",

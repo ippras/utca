@@ -1,7 +1,7 @@
 #![enable(unwrap_newtypes)]
 (
     meta: {
-        "Authors": "Giorgi Vladimirovich Kazakov,Roman Alexandrovich Sidorov",
+        "Authors": "Giorgi Vladimirovich Kazakov;Roman Alexandrovich Sidorov",
         "Date": "2023-10-22",
         "Description": "",
         "Name": "H-626{Control;9day;SN-2}",

@@ -1,7 +1,7 @@
 #![enable(unwrap_newtypes)]
 (
     meta: {
-        "Authors": "Giorgi Vladimirovich Kazakov,Roman Alexandrovich Sidorov",
+        "Authors": "Giorgi Vladimirovich Kazakov;Roman Alexandrovich Sidorov",
         "Date": "2023-10-24",
         "Description": "",
         "Name": "C-70{NaCl;SN-1,2(2,3)}",
