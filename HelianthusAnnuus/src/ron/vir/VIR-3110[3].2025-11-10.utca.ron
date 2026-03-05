@@ -3,8 +3,8 @@
     meta: {
         "Authors": "Giorgi Vladimirovich Kazakov;Roman Alexandrovich Sidorov",
         "Date": "2025-11-10",
-        "Description": "К-3110, Первенец, Россия\n#3209, #3213",
-        "Name": "К-3110",
+        "Description": "Cat. No. 3110, Первенец, Россия\n#3209, #3213",
+        "Name": "VIR-3110",
         "Version": "0.0.3",
     },
     data: (
