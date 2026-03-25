@@ -1,4 +1,4 @@
-# Data
+# Input
 
 ## Commodity
 
@@ -51,7 +51,7 @@
 | 22:1 | 0.0      | 0.0   |
 | 24:0 | 0.002    | 0.0   |
 
-## High stearic/high  oleic (HS/HO)
+## High stearic/high oleic (HS/HO)
 
 | FA   | SN-1,2,3 | SN-2  |
 | ---- | -------- | ----- |
