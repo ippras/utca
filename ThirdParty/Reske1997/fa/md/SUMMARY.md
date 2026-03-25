@@ -16,7 +16,7 @@
 
 | #   | FA       | Sunflower seed (commodity) | Sunflower seed (high linoleic) | Sunflower seed (high oleic) | Sunflower seed (high palmitic, high linoleic) | Sunflower seed (high palmitic, high oleic) | Sunflower seed (high stearic, high oleic) |
 | --- | -------- | -------------------------- | ------------------------------ | --------------------------- | --------------------------------------------- | ------------------------------------------ | ----------------------------------------- |
-| 5   | Linoleic | 55.1                       | 75.4                           | 2.5                         | 36.2                                          | 3.8                                        | 2.7                                       |
+| 5   | Linoleic | 55.2                       | 75.6                           | 2.4                         | 36.3                                          | 3.9                                        | 2.7                                       |
 
 ## EF
 
